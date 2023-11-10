@@ -116,7 +116,7 @@ if __name__ == "__main__":
     data_filtered_df = nhl_data_df[(nhl_data_df['date'].dt.year >= 2001) & (nhl_data_df['date'].dt.year <= 2023)]
 
     # plot line graph
-    # create_mean_score_line_plot(data_filtered_df)
+    create_mean_score_line_plot(data_filtered_df)
 
     # plot scatter plot graph
     create_scatter_plot(data_filtered_df)
